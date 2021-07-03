@@ -4,11 +4,11 @@
 
 ### 1. Простые типы: Когда вы взаимодействуете с простым типом, вы взаимодействуете непосредственно с его значением в памяти.
 
-string
-number
-boolean
-null
-undefined
+- string
+- number
+- boolean
+- null
+- undefined
 
 ```
 var foo = 1,
@@ -21,9 +21,9 @@ console.log(foo, bar); // => 1, 9. foo не изменился
 
 ### 2. Сложные типы: Когда вы взаимодействуете со сложным типом, вы взаимодействуете с ссылкой на его значение в памяти.
 
-object
-array
-function
+- object
+- array
+- function
 
 ```
 var foo = [1, 2],
